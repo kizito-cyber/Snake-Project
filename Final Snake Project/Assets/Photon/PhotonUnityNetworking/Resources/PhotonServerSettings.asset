@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: 795c9d63-a16c-42b2-80a0-c5a4ce298ee7
+    AppIdFusion: 
+    AppIdChat: 
+    AppIdVoice: 
+    AppVersion: 
+    UseNameServer: 1
+    FixedRegion: us
+    Server: 
+    Port: 443
+    ProxyServer: 
+    Protocol: 5
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: 
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - ClickRpc
+  - DestroyRpc
+  - DestroySpaceship
+  - Fire
+  - RespawnSpaceship
+  - RPC_DestroyBodySegments
+  - RPC_DestroyNetworkedObject
+  - RPC_SetGrowth
+  - RPC_SetSnakeColor
+  - RPC_UpdateSpinningRim
+  - RPC_VisualDestroyObject
+  - RPC_SpawnFood
+  - RPC_DestroyFood
+  - RPC_Grow
+  - RPC_SetInitialFood
+  - RPC_SetOutlineColor
+  - RPC_RespawnFood
+  - RPC_SetFoodSeed
+  - RPC_DoDie
+  - RPC_HandleHeadCollision
+  - RPC_HandleTrailCollision
+  - RPC_HandleWallCollision
+  - RPC_HandleWallDeath
+  - RPC_RequestDeath
+  - RPC_MasterHandleDeath
+  - RPC_VictimDoLocalDeath
+  - RPC_VictimDoDie
+  - RPC_RequestOwnerDestroy
+  - RPC_SpawnLeftoverOnMaster
+  - RPC_SpawnLeftover
+  - RPC_DoLocalDeath
+  - RPC_RequestDestroySelf
+  - RPC_RequestHeadOnDeath
+  - RPC_MasterDestroy
+  - RPC_SpawnFoodSnapshot
+  - RPC_DestroyLeftover
+  - RPC_SetMaterials
+  - RPC_SetHeadOutlineColor
+  - RPC_ClearAllFood
+  - RPC_ReportFoodEaten
+  - RPC_SpawnSnapshot
+  - RPC_BeginAttraction
+  - RPC_RemoveFood
+  - RPC_SpawnLeftovers
+  - RPC_SpawnLeftoverSingle
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
+  DevRegionSetOnce: 1
